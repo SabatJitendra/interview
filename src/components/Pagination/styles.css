@@ -1,0 +1,33 @@
+table, th,tr, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.paginationContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.cursor{
+  cursor: pointer;
+}
+
+.page{
+  padding: 5px;
+}
+
+.active{
+  color: #50f062;
+}
+
+.inactive {
+  color: #000000;
+}
+
+.hide{
+  visibility: hidden;
+}
+
+.show{
+  visibility: visible;
+}
